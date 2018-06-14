@@ -3,7 +3,7 @@ namespace febraban;
 
 class Configurar{
 
-public static function cedente($cfg){
+public static function Empresa($cfg){
 
   return "Hello world!!";
 
