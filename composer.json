@@ -1,6 +1,6 @@
 {
     "name": "suhdo/da-febraban-php",
-    "description": "Projeto Código-Aberto para criação e processamento de arquivos de retorno de débito automático no padrao FEBRABAN",
+    "description": "Projeto Código-Aberto para criação de remessa e processamento de arquivos de retorno de débito automático no padrao FEBRABAN",
     "type": "library",
     "keywords": [
         "php",
