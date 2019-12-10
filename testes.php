@@ -14,8 +14,8 @@
 	$RegistroA = array(); 
 	$RegistroA["cod_registro"] = "A";
 	$RegistroA["cod_remessa"] = "1";
-	$RegistroA["cod_convenio"] = "2972450";
-	$RegistroA["nome_empresa"] = "Adufu Seção Sindical";
+	$RegistroA["cod_convenio"] = "1234567";
+	$RegistroA["nome_empresa"] = "Suhdo Tecnologia";
 	$RegistroA["cod_banco"] = "001";
 	$RegistroA["nome_banco"] = "BANCO DO BRASIL S/A";
 	$RegistroA["data_geracao"] = Date('Ymd');
