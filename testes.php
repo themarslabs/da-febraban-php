@@ -49,16 +49,18 @@
 	$RegistroZ['reservado_futuro'] 	= "";
 
 
-echo '<pre>';
+	//VISUALIZANDO O ARQUIVO
 
-echo $file = febraban\Configurar::RegistroA($RegistroA);
+echo '<pre>';
+echo $header = febraban\Configurar::RegistroA($RegistroA);
 echo '<br />';
-echo $file = febraban\Configurar::RegistroE($RegistroE);
+echo $body = febraban\Configurar::RegistroE($RegistroE);
+echo '<br />';
+echo $footer .= febraban\Configurar::RegistroZ($RegistroZ).PHP_EOL;
 echo '</pre>';
 	
-/**
 
-        ESCREVENDO O ARQUIVO
+	//ESCREVENDO O ARQUIVO
 
         //variavel que armazena o conteudo da remessa
         $content = '';
@@ -73,11 +75,10 @@ echo '</pre>';
         $content .= febraban\Configurar::RegistroZ($RegistroZ).PHP_EOL;
 
         //cria o arquivo
-        $fp = fopen("REMESSA.REM","wb"); //.REM é a extensão da remessa no BB 
-        if(fwrite($fp,$content)) echo 'Arquivo criado'; else echo 'Erro ao salvar arquivo';
-        fclose($fp);
+	//$fp = fopen("REMESSA.REM","wb"); //.REM é a extensão da remessa no BB 
+	//if(fwrite($fp,$content)) echo 'Arquivo criado'; else echo 'Erro ao salvar arquivo';
+	//fclose($fp);
 	
-*/	
 	
 ?>
 </body>
