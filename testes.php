@@ -52,11 +52,11 @@
 	//VISUALIZANDO O ARQUIVO
 
 echo '<pre>';
-echo $header = febraban\Configurar::RegistroA($RegistroA);
+echo febraban\Configurar::RegistroA($RegistroA);
 echo '<br />';
-echo $body = febraban\Configurar::RegistroE($RegistroE);
+echo febraban\Configurar::RegistroE($RegistroE);
 echo '<br />';
-echo $footer .= febraban\Configurar::RegistroZ($RegistroZ).PHP_EOL;
+echo febraban\Configurar::RegistroZ($RegistroZ);
 echo '</pre>';
 	
 
