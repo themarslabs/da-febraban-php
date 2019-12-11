@@ -51,13 +51,13 @@
 
 	//VISUALIZANDO O ARQUIVO
 
-echo '<pre>';
-echo febraban\Configurar::RegistroA($RegistroA);
-echo '<br />';
-echo febraban\Configurar::RegistroE($RegistroE);
-echo '<br />';
-echo febraban\Configurar::RegistroZ($RegistroZ);
-echo '</pre>';
+	echo '<pre>';
+	echo febraban\Configurar::RegistroA($RegistroA);
+	echo '<br />';
+	echo febraban\Configurar::RegistroE($RegistroE);
+	echo '<br />';
+	echo febraban\Configurar::RegistroZ($RegistroZ);
+	echo '</pre>';
 	
 
 	//ESCREVENDO O ARQUIVO
